@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'News Cycle';
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/NewsCycle-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'News Cycle';
+	font-weight: bold;
+	font-style: normal;
+	src: url('fonts/NewsCycle-Bold.ttf') format('truetype');
+}
+
+h1, h2 {
+	font-family: 'News Cycle', sans-serif;
+}
+
+body{
+	font-family: 'News Cycle', sans-serif;
+}

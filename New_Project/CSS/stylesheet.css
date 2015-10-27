@@ -14,6 +14,7 @@
 
 h1, h2 {
     font-family: 'News Cycle', sans-serif;
+    color: #29242a;
 }
 
 body{
@@ -45,19 +46,37 @@ background:url(img/cake1.jpg) no-repeat;
 background:url(img/hover.jpg) no-repeat;
 }
 
+.row-1{
+    text-decoration: none;
+    font-size: 0.8em;
+
+    color: #504f55;
+}
+.menu{
+display: block;
+}
+
 .menu a{
+width: 25%;
+float:left;
+
+text-align: center;
 text-decoration: none;
 background-color: #29242a;
-padding: 0.5em 2em 0.5em 2em;
-margin-left: -0.5em;
-color: #FFF;
+padding: 0.5em 3em 0.5em 3em;
 
+margin-left: auto;
+margin-right: auto;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+
+color: #FFF;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
 .menu a:hover{
-  background-color:#504f55;
+  background-color:#6c5c53;
   color: #FFF;
 }
 
@@ -84,7 +103,7 @@ text-align: center;
     float:left;
 }     
 
-ul li {
+/**ul li {
     margin-left:100px;
     display: inline-block;
     border-style: solid;
@@ -100,7 +119,7 @@ ul li {
 ul li:hover{
 background-color:yellow;
 }
-
+**/
 ul li ul.dropdown{
         display: none;
         position: absolute;

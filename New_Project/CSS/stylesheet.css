@@ -45,14 +45,26 @@ background:url(img/cake1.jpg) no-repeat;
 background:url(img/hover.jpg) no-repeat;
 }
 
-a{
+.menu a{
 text-decoration: none;
+background-color: #29242a;
+padding: 0.5em 2em 0.5em 2em;
+margin-left: -0.5em;
+color: #FFF;
+
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.menu a:hover{
+  background-color:#504f55;
+  color: #FFF;
 }
 
 img {
-    margin-top:10px;
-    margin-left:15px;
-    margin-bottom:20px;
+    margin-top:0.5em;
+    margin-left:0.5em;
+    margin-bottom:0.5em;
     max-width: 100%;
     height: auto;
     float:left;
@@ -64,11 +76,12 @@ text-align: center;
 }          
    
 #Deal{
-float:right;
+    float:left;
+
 }
 
 #Event{
-float:left
+    float:left;
 }     
 
 ul li {
@@ -103,6 +116,7 @@ ul li ul.dropdown{
 * {
 box-sizing: border-box;
 }
+
 [class*="col-"] {
 float: left;
 padding: 15px;

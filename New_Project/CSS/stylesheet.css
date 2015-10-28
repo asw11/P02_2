@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'News Cycle';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/NewsCycle-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'News Cycle';
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/NewsCycle-Bold.ttf') format('truetype');
+}
+
+h1, h2 {
+    font-family: 'News Cycle', sans-serif;
+    color: #29242a;
+}
+
+body{
+    font-family: 'News Cycle', sans-serif;
+    background-color: #93c5bc;
+}
+
+h3 {
+	margin-left:10px;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+body {
+margin-left:auto;
+margin-right:auto;
+}
+
+#Cakes {
+height: 216px;
+width: 216px;
+background:url(img/cake1.jpg) no-repeat;
+}
+
+#Cakes:hover {
+background:url(img/hover.jpg) no-repeat;
+}
+
+.row-1{
+    text-decoration: none;
+    font-size: 0.8em;
+
+    color: #504f55;
+}
+.menu{
+display: block;
+}
+
+.menu a{
+width: 25%;
+float:left;
+
+text-align: center;
+text-decoration: none;
+background-color: #29242a;
+padding: 0.5em 3em 0.5em 3em;
+
+margin-left: auto;
+margin-right: auto;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+
+color: #FFF;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.menu a:hover{
+  background-color:#6c5c53;
+  color: #FFF;
+}
+
+img {
+    margin-top:0.5em;
+    margin-left:0.5em;
+    margin-bottom:0.5em;
+    max-width: 100%;
+    height: auto;
+    float:left;
+}
+
+ul{
+padding:0;
+text-align: center; 
+}          
+   
+#Deal{
+    float:left;
+
+}
+
+#Event{
+    float:left;
+}     
+
+/**ul li {
+    margin-left:100px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    background-color: orange;
+    font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+ul li:hover{
+background-color:yellow;
+}
+**/
+ul li ul.dropdown{
+        display: none;
+        position: absolute;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	
+    }
+    ul li ul.dropdown li{
+	margin:0;	
+        display: block;
+    }
+
+* {
+box-sizing: border-box;
+}
+
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row:after {
+content: "";
+clear: both;
+display: block;
+}
+
+.signin{
+}
+

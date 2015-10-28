@@ -1,0 +1,324 @@
+
+
+h1.logo {
+  letter-spacing:0.3em;
+  font-size: 300%;
+  color: #98cec7;
+}
+
+.button, #search{
+    /*display: inline-block;*/
+    clear: left;
+    float:right;
+    
+}
+
+img.newphoto{
+ max-width: 100%;
+ height: 300px;
+}
+
+
+.nav {
+  display: inline-block;
+  text-decoration: none;
+  text-align:center;
+  font-size: 120%;
+  background-color: #98cec7, 60%;
+  min-width: 18%;
+}
+
+
+body{
+    color:black;
+    background-color:white;
+    font-size: 16px;
+    color:#929595;
+}
+
+h1{
+   font-size: 3.3rem;
+   font-weight: 700;
+   font-family: 'News Cycle', sans-serif;
+   text-align: left;
+}
+
+h2{
+    text-align: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+p,code,figcaption{
+    font-size: 1rem;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.newphoto{
+    display: block;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+.textmiddle{
+    z-index: 1;
+    margin-left: 8.8%;
+    margin-right: 30%;
+    margin-top: -38%;
+    position: absolute;
+    max-width: 50em;
+    min-width: 20em;
+    background-color: rgba(146, 149, 149, 0.6);
+    opacity: 1;
+}
+
+
+.pmiddletext{
+    font-family: "Oswald-Light";
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+    color: white;
+    opacity: 1;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+
+.coltext_bottom{
+    padding-left: 10em;
+    margin-top: 10em;
+    margin: center;
+}
+
+
+
+.homebottom{     
+    margin-top: 5em;
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    margin-left: -5em;
+    width: 150%;
+}
+
+
+.col-image-cool{
+    position: absolute;
+    top:-16em;
+    right:30em;
+}
+
+
+
+.link{
+    font-family: Existence;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+    color: #F39873;
+    font-weight: bold;
+}
+
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+nav .button:hover{
+    background-color: #F39873;
+    color: #C2BFBB;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+img{
+    background-color: rgba(255, 237, 221, 0.3);
+}
+
+.mainpage-img{
+    float: left;
+}
+
+
+figure{
+    margin: 0;
+}
+
+
+article {
+    text-align: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#header {
+	float: left;
+	width: 600px;
+	
+}
+
+ .topmenu{
+    margin-left: 8em;
+    margin-top: 0em;
+    margin-right: 8em;
+ }
+
+ .login-methods{
+	 position: absolute;
+	 left: 400px;
+	 top: 190px;
+	 height: 100px;
+	 width: 200px;
+	 z-index: 1;
+   /* margin-right: 8em;
+    margin-top: 0em;
+    margin-left: 8em;
+    margin-bottom: 2em;*/
+ }
+
+
+.onpage-button-nav, .onpage-button-nav:visited{
+    display: inline-block;
+    background-color:  #F39873;
+    color: white;
+    text-decoration: none; 
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-size: normal;
+    font-family: "Oswald-Regular";
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.onpage-button-nav:hover, .onpage-button-nav:active, .onpage-button-nav:focus{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.login-button-nav, .login-button-nav:visited{
+    display: inline-block;
+    color: #F39873;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-size: 1.2em;
+    text-align: center;
+    font-size: normal;
+    font-family: "Oswald-Regular";
+    float: right;
+}
+
+.login-button-nav:hover, .login-button-nav:active, .login-button-nav:focus{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+.button-nav, .button-nav:visited{
+    display: inline-block;
+    color: #F39873;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.3em 0.3em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    width:100%;
+    font-size: normal;
+    font-family: "Oswald-Regular";
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.payment-figure{
+    margin: 0;
+    text-align: left;
+}
+
+
+.specialprice-title{
+    font-family: "Oswald-Regular";
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.about-story{
+    margin-top: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    font-family: "Oswald-Light";
+    font-weight: lighter;
+    text-align: left;
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-left: 8em;
+}
+
+.topimage-layout{
+    margin-top: 1%;
+}
+
+.myname{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: "Oswald-Light";
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    color: #929595;
+}

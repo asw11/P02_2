@@ -1,0 +1,235 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:272px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:272px;
+  height:340px;
+  color:#C9C9C9;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:272px;
+  height:340px;
+}
+#u1 {
+  position:absolute;
+  left:2px;
+  top:162px;
+  width:268px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u2 {
+  position:absolute;
+  left:28px;
+  top:7px;
+  width:62px;
+  height:21px;
+  font-family:'Kokonor', 'Kokonor';
+  font-weight:400;
+  font-style:normal;
+  color:#996633;
+}
+#u2_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:62px;
+  height:21px;
+}
+#u3 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:62px;
+  white-space:nowrap;
+}
+#u4 {
+  position:absolute;
+  left:10px;
+  top:10px;
+  width:14px;
+  height:14px;
+}
+#u4_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:14px;
+  height:14px;
+}
+#u5 {
+  position:absolute;
+  left:2px;
+  top:-1px;
+  width:10px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u6 {
+  position:absolute;
+  left:10px;
+  top:38px;
+  width:250px;
+  height:209px;
+}
+#u6_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:250px;
+  height:209px;
+}
+#u7 {
+  position:absolute;
+  left:2px;
+  top:96px;
+  width:246px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u8 {
+  position:absolute;
+  left:10px;
+  top:255px;
+  width:160px;
+  height:25px;
+  font-family:'Kokonor', 'Kokonor';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#996633;
+}
+#u8_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:160px;
+  height:25px;
+}
+#u9 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:160px;
+  word-wrap:break-word;
+}
+#u10 {
+  position:absolute;
+  left:212px;
+  top:255px;
+  width:60px;
+  height:23px;
+  font-family:'Kokonor', 'Kokonor';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#996633;
+}
+#u10_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  height:23px;
+}
+#u11 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:60px;
+  word-wrap:break-word;
+}
+#u12 {
+  position:absolute;
+  left:10px;
+  top:289px;
+  width:250px;
+  height:38px;
+  font-family:'Kokonor', 'Kokonor';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#996633;
+}
+#u12_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:250px;
+  height:38px;
+}
+#u13 {
+  position:absolute;
+  left:2px;
+  top:5px;
+  width:246px;
+  word-wrap:break-word;
+}
+body.a {  background-color:rgba(255, 255, 255, 1);
+  background-image:none;
+  position:static;
+  left:auto;
+  width:272px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#u0.a {
+}
+#u0_img.a {
+}
+#u1.a {
+}
+#u2.a {
+}
+#u2_img.a {
+}
+#u3.a {
+}
+#u4.a {
+}
+#u4_img.a {
+}
+#u5.a {
+}
+#u6.a {
+}
+#u6_img.a {
+}
+#u7.a {
+}
+#u8.a {
+}
+#u8_img.a {
+}
+#u9.a {
+}
+#u10.a {
+}
+#u10_img.a {
+}
+#u11.a {
+}
+#u12.a {
+}
+#u12_img.a {
+}
+#u13.a {
+}

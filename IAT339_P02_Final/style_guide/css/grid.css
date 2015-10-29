@@ -1,0 +1,13 @@
+/*Navigation Bar*/
+#navbar:before {
+  display: block;
+}
+
+#navbar:after {
+  display: inline-block;
+}
+
+#navbar:before, #navbar:after {
+  content: "";
+  width: 100%;
+}

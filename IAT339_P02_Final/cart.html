@@ -1,0 +1,152 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- block for title -->
+  <title> Cart </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   
+	<link rel="stylesheet" href="css/slick/slick.css"/>
+  <link rel="stylesheet" href="css/slick/slick-theme.css"/>
+
+
+</head>
+<body>
+	<!-- block for header -->
+	 
+		<!-- header.nunjucks -->
+
+<div id="header" class="flex-container grid-text-center">
+	<div id="header-left" class="flex-cell">
+		<h1 id="header-logo">Wonder Cake</h1>
+	</div>
+
+	<div id="header-right" class="flex-cell">
+		<span class="header-span">
+			<section id="search">
+				<form action="advanced-search.html">
+				<input id="search-input" class="form-control" type="search" name="header-search-input" placeholder="Search" />
+				<label for="search-input"><i class="fa fa-search"></i></label>
+				<input class="search-submit" type="submit" value="submit">
+				</form>
+			</section>
+		</span>
+		<span class="header-span header-user">
+			<a href="./signup.html">Sign up</a>
+		</span>
+		<span class="header-span header-user">
+			<a href="./login.html">Login</a>
+		</span>
+	</div>
+</div>
+	
+	
+	<!-- block for navigation bar -->
+	
+	
+	
+	<nav>
+		<ul id="navbar" class="flex-container">
+			<li id="nav-home" class="flex-cell"><a href="home.html" class="">Home</a></li>
+			<li id="nav-product" class="flex-cell"><a href="#" class="">Product</a>
+				<ul>
+					<li><a href="cheese.html">Cheese</a></li>
+					<li><a href="mousse.html">Mousse</a></li>
+					<li><a href="macarons.html">Macarons</a></li>
+				</ul>
+			</li>
+			<li id="nav-about" class="flex-cell"><a href="about.html" class="">About</a></li>
+			<li id="nav-contact" class="flex-cell"><a href="contact.html" class="">Contact</a></li>
+			<li id="nav-faq" class="flex-cell"><a href="faq.html" class="">FAQ</a></li>
+			<li id="nav-cart" class="flex-cell"><a href="#" class="active">Cart</a></li>
+		</ul>
+	</nav>
+
+
+  
+  <!-- block for main content -->
+   
+  <div class="headover-line">
+  	<h2><span>Shopping Cart</span></h2>
+  </div>
+  <section id="shopping-cart">
+    <div id="shopping-cart-detail" class="flex-cell">
+      <div class="flex-container">
+        <div class="flex-cell"><img src="images/Bonbon.png" /></div>
+        <div class="flex-cell">
+          <div class="cart-detail"><span><strong>Name</strong></span><span><strong>Quantity</strong></span><span><strong>Price</strong></span></div>
+          <div class="cart-detail"><span>Bonbon</span>
+          <span>
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </span>
+          <span>$35</span><span><form action="#"><input type="submit" value="Remove" class="button">
+      </form></div>
+        </div>
+    </div>
+    </div>
+    <section id="cart-button">
+      <form action="#">
+        <input type="submit" value="Cancel" class="button">
+      </form>
+      <form action="checkout.html">
+        <input type="submit" value="Checkout" class="button">
+      </form>
+    </section>
+    
+  </section>
+
+
+  <!-- block for footer -->
+  
+  	<!-- footer.nunjucks -->
+
+<div id="footer" class="flex-container grid-text-center">
+
+	<section class="flex-container">
+		<div id="footer-deal" class="flex-cell">
+			<div class="flex-container">
+			<div class="footer-img flex-cell"><img src="images/Deal_footer.jpg" /></div>
+			<div class="footer-note flex-cell">
+				<h3>Deal</h3>
+				<div class="footer-txt">Some special cakes are offer 20% off; all incomes are used for donation.</div>
+				<div class="footer-more"><a href="deal.html">More</a></div>
+			</div>
+			</div>
+		</div>
+		<div id="footer-event" class="flex-cell">
+			<div class="flex-container">
+			<div class="footer-img flex-cell"><img src="images/Event_footer.png" /></div>
+			<div class="footer-note flex-cell">
+				<h3>Event</h3>
+				<div class="footer-txt">All treats no tricks, make your own Halloween themed bakes.</div>
+				<div class="footer-more"><a href="event.html">More</a></div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="copyright">&copy; 2015 Wonder Cake. All Rights Reserved.</section>
+</div>
+  
+  <!-- Javascripts -->
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+      $('.home-image-gallery').slick();
+    });
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- block for title -->
+  <title> FAQ </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/flexgrid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   
+	<link rel="stylesheet" href="css/slick/slick.css"/>
+  <link rel="stylesheet" href="css/slick/slick-theme.css"/>
+
+
+</head>
+<body>
+	<!-- block for header -->
+	 
+		<!-- header.nunjucks -->
+
+<header id="header" class="grid-row">
+	<div class="grid-col-1of2">
+		<h1 id="header-logo">Wonder Cake</h1>
+	</div>
+
+	<div class="grid-col-1of2">
+		<span class="header-span">
+			<section id="search">
+				<form action="#">
+				<input id="search-input" class="form-control" type="search" name="header-search-input" placeholder="Search" />
+				<label for="search-input"><i class="fa fa-search"></i></label>
+				<input class="search-submit" type="submit" value="submit">
+				</form>
+			</section>
+		</span>
+	</div>
+</header>
+	
+	
+	<!-- block for navigation bar -->
+	
+	
+	
+	<nav class="grid-row">
+		<div id="nav-home" class="grid-col-2of16"><a href="home.html" class="">Home</a></div>
+		<div id="nav-cheese" class="grid-col-2of16"><a href="cheese.html" class="">Cheese</a></div>
+		<div id="nav-mousse" class="grid-col-2of16"><a href="mousse.html" class="">Mousse</a></div>
+		<div id="nav-macaron" class="grid-col-2of16"><a href="macarons.html" class="">Macarons</a></div>
+		<div id="nav-about" class="grid-col-2of16"><a href="about.html" class="">About</a></div>
+		<div id="nav-contact" class="grid-col-2of16"><a href="contact.html" class="">Contact</a></div>
+		<div id="nav-faq" class="grid-col-2of16"><a href="#" class="active">FAQ</a></div>
+		<div id="nav-cart" class="grid-col-2of16"><a href="cart.html" class="">Cart</a></div>
+	</nav>
+
+
+  
+  <!-- block for main content -->
+   
+  <div class="headover-line">
+  	<h2><span>Top 5 FAQ</span></h2>
+  </div>
+  <section id="top-faq">
+    <ol>
+      <li><div><strong>Can I supply my own cake design ideas?</strong></div>
+        <div>
+        Yes absolutely! It’s important that we work together to incorporate your style and tastes into your order. We work individually with each client to ensure your cake is tailored for your event.
+        </div>
+      </li>
+      <li><div><strong>How far in advance should I place my order?</strong></div>
+        <div>
+        We’d like as much lead-time as possible…but if you have a short notice order, ask us, and we’ll try to get it done for you! If possible, we ask that you give us at least 4 to 6 days notice on specialty cake orders.
+        </div>
+      </li>
+      <li>
+        <div><strong>What is your refund/cancellation policy?</strong></div>
+        <div>
+        A deposit of 50% is due at time of order placement. Balance is due in full prior to delivery. If an order is not picked up on the day of delivery or delivery is denied, the client is responsible for the remaining balance. 
+        </div>
+      </li>
+      <li>
+        <div><strong>I have my own cake flavor in mind, do you do custom cake flavors?</strong></div>
+        <div>
+        Our cakes are made to order, so if you have a flavor in mind, let us know and we’ll do everything we can to make it for you! Our basic cake flavors are listed in our product pages.    
+        </div>
+      </li>
+      <li><div><strong>What method of payment do you accept?</strong></div>
+      <div>We accepts cash, cheques, Interac email money transfers or money orders only.</div>
+      </li>
+    </ol>
+  </section>
+
+  <div class="headover-line">
+    <h2></h2>
+  </div>
+  <section id="form-faq">
+    <section class="form-input">
+      <form method="post" action="#">
+      <div class="text-area">
+        <div class="input-wrapper">
+        <input type="text" id="name" placeholder="Name">
+        </div>
+
+        <div class="input-wrapper">
+          <input type="text" placeholder="Subject"></input>
+        </div>
+
+        <div class="input-wrapper">
+          <input type="text" placeholder="Email / Phone"></input>
+        </div>
+
+        <div class="input-wrapper input-message">
+          <input type="text" placeholder="Message"></input>
+        </div>
+      </div>
+        <input id="cancel-button" type="submit" value="Cancel" class="button">
+        <input type="submit" value="Submit" class="button">
+      </form>
+
+  </section>
+
+
+
+
+  <!-- block for footer -->
+  
+  	<!-- footer.nunjucks -->
+
+<footer id="footer">
+	<section class="grid-row">
+		<div class="grid-col-1of4">
+			<img src="images/Deal_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Deal</h3>
+			<div class="footer-txt">Some special cakes are offer 20% off; all incomes are used for donation.</div>
+			<div class="footer-more"><a href="deal.html">More</a></div>
+		</div>
+		<div class="grid-col-1of4">
+			<img src="images/Event_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Event</h3>
+			<div class="footer-txt">All treats no tricks, make your own Halloween themed bakes.</div>
+			<div class="footer-more"><a href="event.html">More</a></div>
+		</div>
+	</section>
+	<section id="copyright">&copy; 2015 Wonder Cake. All Rights Reserved. <span><a href="style_guide/style_guide.html">Style Guide</a></span><span><a href="https://github.com/asw11/P02_2">Github</a></span></section>
+</footer>
+  
+  <!-- Javascripts -->
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+      $('.home-image-gallery').slick();
+    });
+	</script>
+
+</body>
+</html>

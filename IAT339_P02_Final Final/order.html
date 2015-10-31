@@ -1,0 +1,161 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- block for title -->
+  <title> Order </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/flexgrid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   
+
+</head>
+<body>
+	<!-- block for header -->
+	 
+		<!-- header.nunjucks -->
+
+<header id="header" class="grid-row">
+	<div class="grid-col-1of2">
+		<h1 id="header-logo">Wonder Cake</h1>
+	</div>
+
+	<div class="grid-col-1of2">
+		<span class="header-span">
+			<section id="search">
+				<form action="#">
+				<input id="search-input" class="form-control" type="search" name="header-search-input" placeholder="Search" />
+				<label for="search-input"><i class="fa fa-search"></i></label>
+				<input class="search-submit" type="submit" value="submit">
+				</form>
+			</section>
+		</span>
+	</div>
+</header>
+	
+	
+	<!-- block for navigation bar -->
+	
+	
+	
+	<nav class="grid-row">
+		<div id="nav-home" class="grid-col-2of16"><a href="home.html" class="">Home</a></div>
+		<div id="nav-cheese" class="grid-col-2of16"><a href="cheese.html" class="">Cheese</a></div>
+		<div id="nav-mousse" class="grid-col-2of16"><a href="mousse.html" class="">Mousse</a></div>
+		<div id="nav-macaron" class="grid-col-2of16"><a href="macarons.html" class="">Macarons</a></div>
+		<div id="nav-about" class="grid-col-2of16"><a href="about.html" class="">About</a></div>
+		<div id="nav-contact" class="grid-col-2of16"><a href="contact.html" class="">Contact</a></div>
+		<div id="nav-faq" class="grid-col-2of16"><a href="faq.html" class="">FAQ</a></div>
+		<div id="nav-cart" class="grid-col-2of16"><a href="cart.html" class="">Cart</a></div>
+	</nav>
+
+
+  
+  <!-- block for main content -->
+   
+  <div class="placeholder"></div>
+  <section>
+    <div class="about-staff flex-container">
+      <div class="flex-cell">
+        <img src="images/Mousse/Angel.jpg" alt="Angel" />
+      </div>
+      <div class="flex-cell">
+        <section id="order-detail">
+          <div><strong><em>Angel</em></strong></div>
+          <div>$35</div>
+          <div>
+            <strong>Weight:</strong>
+            <select>
+                <option value="1">1 lb</option>
+                <option value="2">2 lb</option>
+                <option value="5">5 lb</option>
+            </select>
+          </div>
+          <div>
+            <strong>Size:</strong> 25cm * 15cm * 8cm
+          </div>
+          <div>
+            <strong>Quantity:</strong><span class="signbox sign-minus"><a href="#">-</a></span>1<span class="signbox"><a href="#">+</a></span>
+          </div>
+        </section>
+        <section id="cart-button">
+          <form action="cart.html">
+            <input type="submit" value="Add to Cart" class="button">
+          </form>
+          <form action="checkout.html">
+            <input type="submit" value="Payment" class="button">
+          </form>
+        </section>
+      </div>
+    </div>
+  </section>
+  <div class="placeholder"></div>
+  <div class="headover-line">
+    <h2><span>Customer Evaluation</span></h2>
+  </div>
+  <div id="iproduct-ingredient">
+    <section class="form-input">
+      <form action="#">
+        <div class="input-wrapper">
+          <input type="text" id="comments" placeholder="Comments">
+          <input type="submit" value="Post" class="button">
+        </div>
+      </form>
+    </section>
+    <section>
+      <div class="customer-review">
+        <span class="user-img"><img src="images/user.jpg"></span>
+        <span><strong>Rainbow:</strong></span>
+        <span>So cool! This beautiful cake is very delicious:)</span>
+      </div>
+      <div class="customer-review">
+        <span class="user-img"><img src="images/user1.jpg"></span>
+        <span><strong>Candice:</strong></span>
+        <span>I order this cake for my Mon’s birthday, she was very love it!</span>
+      </div>
+
+    </section>
+
+  </div>
+
+
+
+  <!-- block for footer -->
+  
+  	<!-- footer.nunjucks -->
+
+<footer id="footer">
+	<section class="grid-row">
+		<div class="grid-col-1of4">
+			<img src="images/Deal_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Deal</h3>
+			<div class="footer-txt">Some special cakes are offer 20% off; all incomes are used for donation.</div>
+			<div class="footer-more"><a href="deal.html">More</a></div>
+		</div>
+		<div class="grid-col-1of4">
+			<img src="images/Event_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Event</h3>
+			<div class="footer-txt">All treats no tricks, make your own Halloween themed bakes.</div>
+			<div class="footer-more"><a href="event.html">More</a></div>
+		</div>
+	</section>
+	<section id="copyright">&copy; 2015 Wonder Cake. All Rights Reserved. <span><a href="style_guide/style_guide.html">Style Guide</a></span><span><a href="https://github.com/asw11/P02_2">Github</a></span></section>
+</footer>
+  
+  <!-- Javascripts -->
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  
+</body>
+</html>

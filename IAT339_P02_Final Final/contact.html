@@ -1,0 +1,148 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- block for title -->
+  <title> Contact </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/flexgrid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   
+	<link rel="stylesheet" href="css/slick/slick.css"/>
+  <link rel="stylesheet" href="css/slick/slick-theme.css"/>
+
+
+</head>
+<body>
+	<!-- block for header -->
+	 
+		<!-- header.nunjucks -->
+
+<header id="header" class="grid-row">
+	<div class="grid-col-1of2">
+		<h1 id="header-logo">Wonder Cake</h1>
+	</div>
+
+	<div class="grid-col-1of2">
+		<span class="header-span">
+			<section id="search">
+				<form action="#">
+				<input id="search-input" class="form-control" type="search" name="header-search-input" placeholder="Search" />
+				<label for="search-input"><i class="fa fa-search"></i></label>
+				<input class="search-submit" type="submit" value="submit">
+				</form>
+			</section>
+		</span>
+	</div>
+</header>
+	
+	
+	<!-- block for navigation bar -->
+	
+	
+	
+	<nav class="grid-row">
+		<div id="nav-home" class="grid-col-2of16"><a href="home.html" class="">Home</a></div>
+		<div id="nav-cheese" class="grid-col-2of16"><a href="cheese.html" class="">Cheese</a></div>
+		<div id="nav-mousse" class="grid-col-2of16"><a href="mousse.html" class="">Mousse</a></div>
+		<div id="nav-macaron" class="grid-col-2of16"><a href="macarons.html" class="">Macarons</a></div>
+		<div id="nav-about" class="grid-col-2of16"><a href="about.html" class="">About</a></div>
+		<div id="nav-contact" class="grid-col-2of16"><a href="#" class="active">Contact</a></div>
+		<div id="nav-faq" class="grid-col-2of16"><a href="faq.html" class="">FAQ</a></div>
+		<div id="nav-cart" class="grid-col-2of16"><a href="cart.html" class="">Cart</a></div>
+	</nav>
+
+
+  
+  <!-- block for main content -->
+   
+	<section class="home-image-gallery">
+    <div><img src="images/Googlemaps.jpg" alt="Google Maps" /></div>
+  </section>
+  <section id="form-contact">
+    <div id="form-contact-left">
+      <div><strong>Address:</strong><div>6551 #3 Road, Richmond, BC</div></div>
+      <div class="placeholder"></div>
+      <div><strong>Phone:</strong><div>778-999-999</div></div>
+      <div class="placeholder"></div>
+      <div><strong>Fax:</strong><div>778-999-888</div></div>
+      <div class="placeholder"></div>
+      <div><strong>Email:</strong><div>question@wondercake.com</div></div>
+    </div>
+
+    <div id="form-contact-right">
+      <section class="form-input">
+        <form method="post" action="#">
+
+          <div class="input-wrapper">
+          <input type="text" id="name" placeholder="Name">
+          </div>
+
+          <div class="input-wrapper">
+            <input type="text" placeholder="Subject"></input>
+          </div>
+
+          <div class="input-wrapper">
+            <input type="text" placeholder="Email / Phone"></input>
+          </div>
+
+          <div class="input-wrapper input-message">
+            <input type="text" placeholder="Message"></input>
+          </div>
+
+          <input type="submit" value="Cancel" class="button">
+          <input type="submit" value="Submit" class="button">
+        </form>
+      </section>
+    </div>
+  </section>
+
+
+
+
+  <!-- block for footer -->
+  
+  	<!-- footer.nunjucks -->
+
+<footer id="footer">
+	<section class="grid-row">
+		<div class="grid-col-1of4">
+			<img src="images/Deal_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Deal</h3>
+			<div class="footer-txt">Some special cakes are offer 20% off; all incomes are used for donation.</div>
+			<div class="footer-more"><a href="deal.html">More</a></div>
+		</div>
+		<div class="grid-col-1of4">
+			<img src="images/Event_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Event</h3>
+			<div class="footer-txt">All treats no tricks, make your own Halloween themed bakes.</div>
+			<div class="footer-more"><a href="event.html">More</a></div>
+		</div>
+	</section>
+	<section id="copyright">&copy; 2015 Wonder Cake. All Rights Reserved. <span><a href="style_guide/style_guide.html">Style Guide</a></span><span><a href="https://github.com/asw11/P02_2">Github</a></span></section>
+</footer>
+  
+  <!-- Javascripts -->
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+      $('.home-image-gallery').slick();
+    });
+	</script>
+
+</body>
+</html>

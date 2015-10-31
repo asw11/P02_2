@@ -1,0 +1,116 @@
+/*
+	Flex Grid Style
+*/
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.flexbox .grid-row {
+	display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex; 
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap; 
+
+	-webkit-align-items: stretch;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+
+/*
+	Here we are using a 'fancy' css selector that is 
+	specifying if the class of an item starts with
+	'grid-col-', then we should apply the styling listed
+*/
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; /* center the content in this block */
+}
+
+/*
+	Here we remove any floating of our columns to ensure
+	that our grid uses the flexbox model correctly when
+	loading our page
+*/
+.flexbox [class^='grid-col-'] {
+	float: none;
+}
+
+/*
+	Here we are defining our 12.5% wide column (for 2 columns of a 16 col grid)
+*/
+.grid-col-2of16 {
+	width: 12.5%;
+}
+
+.grid-col-2of10 {
+	width: 20%;
+}
+
+.grid-col-1of2 {
+	width: 50%;
+}
+
+.grid-col-1of4 {
+	width: 25%;
+}
+
+/*
+	Here we end up using our .flexbox class and some more specificity to
+	set the flexing of our navigation
+*/
+.flexbox nav .grid-col-2of16 {
+	-webkit-flex-grow: 1;
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+	width: auto;
+}
+
+.flexbox .grid-col-1of2, .flexbox .grid-col-2of10, .flexbox .grid-col-1of4 {
+	-webkit-flex-grow: 1;
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+	width: auto;
+}
+
+/*
+	Using further @media queries, we specify that at a width of
+	less than 30em it should collapse the 2/12 columns into one stack
+*/
+@media (max-width: 30em) {
+	.grid-col-2of16, .grid-col-1of2, .grid-col-2of10, .grid-col-1of4 {
+		width: 100%;
+	}
+	.flexbox nav .grid-col-2of16 {
+		width: auto;
+	}
+}
+
+.grid-text-center {
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+ 	/*align-content: space-between;*/
+}
+
+.flex-cell {
+	flex: 1;
+}

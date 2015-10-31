@@ -1,0 +1,128 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- block for title -->
+  <title> Cart </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/flexgrid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   
+
+</head>
+<body>
+	<!-- block for header -->
+	 
+		<!-- header.nunjucks -->
+
+<header id="header" class="grid-row">
+	<div class="grid-col-1of2">
+		<h1 id="header-logo">Wonder Cake</h1>
+	</div>
+
+	<div class="grid-col-1of2">
+		<span class="header-span">
+			<section id="search">
+				<form action="#">
+				<input id="search-input" class="form-control" type="search" name="header-search-input" placeholder="Search" />
+				<label for="search-input"><i class="fa fa-search"></i></label>
+				<input class="search-submit" type="submit" value="submit">
+				</form>
+			</section>
+		</span>
+	</div>
+</header>
+	
+	
+	<!-- block for navigation bar -->
+	
+	
+	
+	<nav class="grid-row">
+		<div id="nav-home" class="grid-col-2of16"><a href="home.html" class="">Home</a></div>
+		<div id="nav-cheese" class="grid-col-2of16"><a href="cheese.html" class="">Cheese</a></div>
+		<div id="nav-mousse" class="grid-col-2of16"><a href="mousse.html" class="">Mousse</a></div>
+		<div id="nav-macaron" class="grid-col-2of16"><a href="macarons.html" class="">Macarons</a></div>
+		<div id="nav-about" class="grid-col-2of16"><a href="about.html" class="">About</a></div>
+		<div id="nav-contact" class="grid-col-2of16"><a href="contact.html" class="">Contact</a></div>
+		<div id="nav-faq" class="grid-col-2of16"><a href="faq.html" class="">FAQ</a></div>
+		<div id="nav-cart" class="grid-col-2of16"><a href="#" class="active">Cart</a></div>
+	</nav>
+
+
+  
+  <!-- block for main content -->
+   
+  <div class="headover-line">
+  	<h2><span>Shopping Cart</span></h2>
+  </div>
+  <section id="shopping-cart">
+    <div id="shopping-cart-detail" class="flex-cell">
+      <div class="flex-container">
+        <div class="flex-cell"><img src="images/Mousse/Angel.jpg" /></div>
+        <div class="flex-cell">
+          <div class="cart-detail"><span><strong>Name</strong></span><span><strong>Quantity</strong></span><span><strong>Price</strong></span></div>
+          <div class="cart-detail"><span>Angel</span>
+          <span>
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </span>
+          <span>$24</span><span><form action="empty-cart.html"><input type="submit" value="Remove" class="button">
+      </form></div>
+        </div>
+    </div>
+    </div>
+    <section id="cart-button">
+      <form action="cheese.html">
+        <input type="submit" value="Cancel" class="button">
+      </form>
+      <form action="checkout.html">
+        <input type="submit" value="Checkout" class="button">
+      </form>
+    </section>
+    
+  </section>
+
+
+  <!-- block for footer -->
+  
+  	<!-- footer.nunjucks -->
+
+<footer id="footer">
+	<section class="grid-row">
+		<div class="grid-col-1of4">
+			<img src="images/Deal_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Deal</h3>
+			<div class="footer-txt">Some special cakes are offer 20% off; all incomes are used for donation.</div>
+			<div class="footer-more"><a href="deal.html">More</a></div>
+		</div>
+		<div class="grid-col-1of4">
+			<img src="images/Event_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Event</h3>
+			<div class="footer-txt">All treats no tricks, make your own Halloween themed bakes.</div>
+			<div class="footer-more"><a href="event.html">More</a></div>
+		</div>
+	</section>
+	<section id="copyright">&copy; 2015 Wonder Cake. All Rights Reserved. <span><a href="style_guide/style_guide.html">Style Guide</a></span><span><a href="https://github.com/asw11/P02_2">Github</a></span></section>
+</footer>
+  
+  <!-- Javascripts -->
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  
+</body>
+</html>

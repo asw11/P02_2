@@ -1,0 +1,172 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- block for title -->
+  <title> Home </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/flexgrid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   
+	<link rel="stylesheet" href="css/slick/slick.css"/>
+  <link rel="stylesheet" href="css/slick/slick-theme.css"/>
+
+
+</head>
+<body>
+	<!-- block for header -->
+	 
+		<!-- header.nunjucks -->
+
+<header id="header" class="grid-row">
+	<div class="grid-col-1of2">
+		<h1 id="header-logo">Wonder Cake</h1>
+	</div>
+
+	<div class="grid-col-1of2">
+		<span class="header-span">
+			<section id="search">
+				<form action="#">
+				<input id="search-input" class="form-control" type="search" name="header-search-input" placeholder="Search" />
+				<label for="search-input"><i class="fa fa-search"></i></label>
+				<input class="search-submit" type="submit" value="submit">
+				</form>
+			</section>
+		</span>
+	</div>
+</header>
+	
+	
+	<!-- block for navigation bar -->
+	
+	
+	
+	<nav class="grid-row">
+		<div id="nav-home" class="grid-col-2of16"><a href="#" class="active">Home</a></div>
+		<div id="nav-cheese" class="grid-col-2of16"><a href="cheese.html" class="">Cheese</a></div>
+		<div id="nav-mousse" class="grid-col-2of16"><a href="mousse.html" class="">Mousse</a></div>
+		<div id="nav-macaron" class="grid-col-2of16"><a href="macarons.html" class="">Macarons</a></div>
+		<div id="nav-about" class="grid-col-2of16"><a href="about.html" class="">About</a></div>
+		<div id="nav-contact" class="grid-col-2of16"><a href="contact.html" class="">Contact</a></div>
+		<div id="nav-faq" class="grid-col-2of16"><a href="faq.html" class="">FAQ</a></div>
+		<div id="nav-cart" class="grid-col-2of16"><a href="cart.html" class="">Cart</a></div>
+	</nav>
+
+
+  
+  <!-- block for main content -->
+   
+	<section class="home-image-gallery">
+    <div><img src="images/Cheese_banner.jpg" alt="Cheese" /></div>
+    <div><img src="images/Mousse_banner.jpg" alt="Mousse" /></div>
+    <div><img src="images/Macarons_banner.jpg" alt="Macarons" /></div>
+  </section>
+  <div class="headover-line">
+  	<h2><span>All Products</span></h2>
+  </div>
+
+  <section class="product-img-display">
+  	<div class="product-row">
+  		<ul class="grid-row">
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Cheese/Cherry Summer.jpg" onmouseover="this.src='images/Cheese/Cherry Summer_hover.jpg'" onmouseout="this.src='images/Cheese/Cherry Summer.jpg'" alt="Cherry Summer alt txt" /></a><div class="product-detail"><span class="product-name">Cherry Summer</span><span class="product-price">$22</span></div>
+          </li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Cheese/Choco Cointreau.jpg" onmouseover="this.src='images/Cheese/Choco Cointreau_hover.jpg'" onmouseout="this.src='images/Cheese/Choco Cointreau.jpg'" alt="Choco Cointreau alt txt" /></a><div class="product-detail"><span class="product-name">Choco Cointreau</span><span class="product-price">$21</span></div>
+          </li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Cheese/Fraisier.jpg" onmouseover="this.src='images/Cheese/Fraisier_hover.jpg'" onmouseout="this.src='images/Cheese/Fraisier.jpg'" alt="Fraisier alt txt" /></a><div class="product-detail"><span class="product-name">Fraisier</span><span class="product-price">$16</span></div>
+          </li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Cheese/Rose Rosette.jpg" onmouseover="this.src='images/Cheese/Rose Rosette_hover.jpg'" onmouseout="this.src='images/Cheese/Rose Rosette.jpg'" alt="Rose Rosette alt txt" /></a><div class="product-detail"><span class="product-name">Rose Rosette</span><span class="product-price">$27</span></div>
+          </li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Cheese/The-MOJITO.jpg" onmouseover="this.src='images/Cheese/The-MOJITO_hover.jpg'" onmouseout="this.src='images/Cheese/The-MOJITO.jpg'" alt="The-MOJITO alt txt" /></a><div class="product-detail"><span class="product-name">The-MOJITO</span><span class="product-price">$23</span></div>
+          </li>
+  			
+			</ul>  			
+  	</div>
+  	<div class="product-row">
+  		<ul class="grid-row">
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Mousse/Angel.jpg" onmouseover="this.src='images/Mousse/Angel_hover.jpg'" onmouseout="this.src='images/Mousse/Angel.jpg'" alt="Angel alt txt" /></a><div class="product-detail"><span class="product-name">Angel</span><span class="product-price">$24</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Mousse/Bonbon.jpg" onmouseover="this.src='images/Mousse/Bonbon_hover.jpg'" onmouseout="this.src='images/Mousse/Bonbon.jpg'" alt="Bonbon alt txt" /></a><div class="product-detail"><span class="product-name">Bonbon</span><span class="product-price">$20</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Mousse/Pancake.jpg" onmouseover="this.src='images/Mousse/Pancake_hover.jpg'" onmouseout="this.src='images/Mousse/Pancake.jpg'" alt="Pancake alt txt" /></a><div class="product-detail"><span class="product-name">Pancake</span><span class="product-price">$23</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Mousse/Perfect Shortbread.jpg" onmouseover="this.src='images/Mousse/Perfect Shortbread_hover.jpg'" onmouseout="this.src='images/Mousse/Perfect Shortbread.jpg'" alt="Perfect Shortbread alt txt" /></a><div class="product-detail"><span class="product-name">Perfect Shortbread</span><span class="product-price">$22</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Mousse/Tea Mousse.jpg" onmouseover="this.src='images/Mousse/Tea Mousse_hover.jpg'" onmouseout="this.src='images/Mousse/Tea Mousse.jpg'" alt="Tea Mousse alt txt" /></a><div class="product-detail"><span class="product-name">Tea Mousse</span><span class="product-price">$20</span></div></li>
+  			
+			</ul>  			
+  	</div>
+  	<div class="product-row">
+  		<ul class="grid-row">
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Macarons/Blackberries.jpg" onmouseover="this.src='images/Macarons/Blackberries_hover.jpg'" onmouseout="this.src='images/Macarons/Blackberries.jpg'" alt="Blackberries alt txt" /></a><div class="product-detail"><span class="product-name">Blackberries</span><span class="product-price">$30</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Macarons/Blush.jpg" onmouseover="this.src='images/Macarons/Blush_hover.jpg'" onmouseout="this.src='images/Macarons/Blush.jpg'" alt="Blush alt txt" /></a><div class="product-detail"><span class="product-name">Blush</span><span class="product-price">$15</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Macarons/Matcha.jpg" onmouseover="this.src='images/Macarons/Matcha_hover.jpg'" onmouseout="this.src='images/Macarons/Matcha.jpg'" alt="Matcha alt txt" /></a><div class="product-detail"><span class="product-name">Matcha</span><span class="product-price">$24</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Macarons/Pistachio.jpg" onmouseover="this.src='images/Macarons/Pistachio_hover.jpg'" onmouseout="this.src='images/Macarons/Pistachio.jpg'" alt="Pistachio alt txt" /></a><div class="product-detail"><span class="product-name">Pistachio</span><span class="product-price">$26</span></div></li>
+  			
+	  			<li class="grid-col-2of10"><a href="iproduct.html"><img src="images/Macarons/Violets.jpg" onmouseover="this.src='images/Macarons/Violets_hover.jpg'" onmouseout="this.src='images/Macarons/Violets.jpg'" alt="Violets alt txt" /></a><div class="product-detail"><span class="product-name">Violets</span><span class="product-price">$26</span></div></li>
+  			
+			</ul>  			
+  	</div>
+  </section>
+
+
+
+  <!-- block for footer -->
+  
+  	<!-- footer.nunjucks -->
+
+<footer id="footer">
+	<section class="grid-row">
+		<div class="grid-col-1of4">
+			<img src="images/Deal_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Deal</h3>
+			<div class="footer-txt">Some special cakes are offer 20% off; all incomes are used for donation.</div>
+			<div class="footer-more"><a href="deal.html">More</a></div>
+		</div>
+		<div class="grid-col-1of4">
+			<img src="images/Event_footer.jpg" />
+		</div>
+		<div class="grid-col-1of4 footer-content">
+			<h3>Event</h3>
+			<div class="footer-txt">All treats no tricks, make your own Halloween themed bakes.</div>
+			<div class="footer-more"><a href="event.html">More</a></div>
+		</div>
+	</section>
+	<section id="copyright">&copy; 2015 Wonder Cake. All Rights Reserved. <span><a href="style_guide/style_guide.html">Style Guide</a></span><span><a href="https://github.com/asw11/P02_2">Github</a></span></section>
+</footer>
+  
+  <!-- Javascripts -->
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+      $('.home-image-gallery').slick({
+      	autoplay: true,
+      	dots: true,
+        autoplaySpeed: 8000
+      });
+    });
+	</script>
+
+</body>
+</html>
